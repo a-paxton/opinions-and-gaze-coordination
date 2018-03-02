@@ -47,7 +47,7 @@ def clean_responses(subject_ID, in_tsv, out_csv=None):
                        "question based on the opinion "
                        "you just heard.",'',
                        file_data)
-    file_data = re.sub(subject_ID+'.*\t', "", file_data)
+    file_data = re.sub(subject_ID+'[^\t]*\t', "", file_data)
     file_data = re.sub(subject_ID, "", file_data)
  
     # remove grammatical commas and apostrophes,
