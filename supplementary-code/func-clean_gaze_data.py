@@ -67,6 +67,9 @@ def clean_gaze_data(in_file_path):
     cleanname = re.sub('gaze-raw','gaze-prepped',cleanname)
     cleanname = re.sub('.txt','.csv',cleanname)
     
+    # save it in a new directory
+    cleanname = re.sub('01-input','02-data_cleaning',cleanname)
+    
     # let us know what you're up to...
     print('Processed SMI Data File: '+cleanname)
 
