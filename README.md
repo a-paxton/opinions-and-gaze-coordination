@@ -1,4 +1,4 @@
-# Opinions and Gaze: Code for Paxton, Richardson, & Dale (*submitted*)
+# Opinions and Gaze Coordination: Code for Paxton, Richardson, & Dale (*submitted*)
 
 This repo contains code for the analyses presented in our article, "Seeing the
 other side: Conflict and controversy increase gaze coordination" (Paxton, Dale,
