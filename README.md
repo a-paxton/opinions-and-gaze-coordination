@@ -1,4 +1,4 @@
-# Opinions and Gaze: Code for Paxton, Richardson, & Dale (*submitted*)
+# Opinions and Gaze Coordination: Code for Paxton, Richardson, & Dale (*submitted*)
 
 This repo contains code for the analyses presented in our article, "Seeing the
 other side: Conflict and controversy increase gaze coordination" (Paxton, Dale,
@@ -30,8 +30,8 @@ Review Board](http://rci.ucmerced.edu/irb) at the [University of California,
 Merced](https://www.ucmerced.edu/)), in keeping with the approved IRB protocol
 and the informed consent signed by participants. A link to the data deposit
 will be made available once the deposit is accepted by ICSPR. You can find more
-about ICSPR's restricted-use data policies on the respository's website:
-https://www.icpsr.umich.edu/icpsrweb/content/ICPSR/access/restricted/
+about ICSPR's restricted-use data policies on
+[their website](https://www.icpsr.umich.edu/icpsrweb/content/ICPSR/access/restricted/).
 
 ## Notes on running and viewing
 
@@ -41,5 +41,6 @@ them, you will need to download the data from ICPSR (again, in accordance with
 their restricted-use data policies) as well.
 
 For those unfamiliar with Jupyter notebooks, we recommend taking a look at
-[Project Jupyter's documentation and FAQ](https://jupyter.readthedocs.io/en/latest/running.html#running) before getting started. (Be sure to have [Jupyter](http://jupyter.org/install)
+[Project Jupyter's documentation and FAQ](https://jupyter.readthedocs.io/en/latest/running.html#running)
+before getting started. (Be sure to have [Jupyter](http://jupyter.org/install)
 installed first.)
