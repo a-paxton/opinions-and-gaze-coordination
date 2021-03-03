@@ -1,0 +1,9 @@
+name: oag-environment
+channels:
+  - conda-forge
+dependencies:
+  - r-essentials
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
