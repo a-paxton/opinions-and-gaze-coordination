@@ -13,7 +13,7 @@ def clean_gaze_data(in_file_path):
     """
     
     import re
-    from StringIO import StringIO
+    from io import StringIO
     import pandas as pd
     
     # read in the file from path

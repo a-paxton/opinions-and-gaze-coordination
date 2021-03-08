@@ -27,7 +27,7 @@ def clean_responses(subject_ID, in_tsv, out_csv=None):
     
     # preliminaries
     import re
-    from StringIO import StringIO
+    from io import StringIO
     import pandas as pd
 
     # open up the TSV file
