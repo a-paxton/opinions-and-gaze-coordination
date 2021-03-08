@@ -10,16 +10,19 @@ The repo contains separate directories for analysis files, figures, and
 supplementary code.
 
 * `analyses`: Directory of Jupyter notebooks:
-    * `oag-data_cleaning.ipynb`: Notebook with Python kernel. Converts raw
+    * `00-oag-data_cleaning.ipynb`: Notebook with Python kernel. Converts
+      participant numeric IDs to sequential numeric IDs, with listeners
+      starting at `00001` and speakers starting at `99991`.
+    * `01-oag-data_cleaning.ipynb`: Notebook with Python kernel. Converts raw
       output files into more manageable formats.
-    * `oag-data_preparation.ipynb`: Notebook with R kernel. Cleans the data
+    * `02-oag-data_preparation.ipynb`: Notebook with R kernel. Cleans the data
       and outputs analysis-ready files.
-    * `oag-data_analysis.ipynb`: Notebook with R kernel. Performs analysis over
+    * `03-oag-data_analysis.ipynb`: Notebook with R kernel. Performs analysis over
       processed and cleaned data. Includes aggregated code output to show
       work for those who cannot access the raw data from ICPSR.
 * `supplementary-code`: Directory of R and Python scripts called by the
   notebooks.
-* `figures`: Directory of figures produced by `oag-data_analysis.ipynb`.
+* `figures`: Directory of figures produced by `01-oag-data_analysis.ipynb`.
 
 ## Related materials
 
