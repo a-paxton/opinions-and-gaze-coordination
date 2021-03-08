@@ -7,3 +7,13 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - r-tidyverse
+  - r-lme4
+  - r-ggplot2
+  - r-gsubfn
+  - r-zoo
+  - r-data.table
+  - r-pander
+  - r-scales
+  - r-rcurl
+  - r-stringr

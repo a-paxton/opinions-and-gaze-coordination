@@ -16,7 +16,6 @@ required_packages = c(
     'ggplot2',
     'gsubfn',
     'zoo',
-    'plyr',
     'dplyr',
     'data.table',
     'pander',
